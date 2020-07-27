@@ -1,0 +1,252 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Twenty Seconds Resume/CV
+% LaTeX Template
+% Version 1.0 (14/7/16)
+%
+% Original author:
+    % Carmine Spagnuolo (cspagnuolo@unisa.it) 
+% with major modifications by 
+    % Vel (vel@LaTeXTemplates.com) and Harsh (harsh.gadgil@gmail.com)
+% Amended by aakriti (aakriti.cse@gmail.com)- dated: 06/28/2020
+% License:
+% The MIT License (see included LICENSE file)
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%----
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----
+\documentclass[letterpaper]{twentysecondcv} % a4paper for A4
+\newcommand\programmingLanguages{
+  \begin{tabular}{ll}
+                    Python:      & \grade{3.5}\\
+                   C++: & \grade{3.5}\\
+                    Shell Scripting : & \grade{2}
+                \end{tabular}}
+\newcommand\CryptographicServices{
+  \begin{tabular}{ll}
+                    PKI:      & \grade{4}\\
+                    HSM:      & \grade{3.5}\\
+                    CMS:     & \grade{3}
+                \end{tabular}}
+\newcommand\SecurityAssurance{
+  \begin{tabular}{ll}
+                    Vulnerability Management: & \grade{3.5}\\
+                    Application Security on Cloud: & \grade{3.5}\\
+                    
+                \end{tabular}}
+
+% Programming skill bars
+% \SecurityNetworkingTools {
+% { 
+%     $\textbullet$ ActiveID 
+%     % $\textbullet$ Cisco Packet Tracer \\\\
+%     $\textbullet$ Qualys 
+%     $\textbullet$ ASOC}
+% }
+% \NetworkingProtocol {
+% {  $\textbullet$ TFTP 
+%   $\textbullet$ TELNET 
+%   $\textbullet$ DNS 
+%   $\textbullet$ DHCP 
+%   $\textbullet$ ACL }
+% }
+\SecurityNetworkingTools{
+{\large \textbf{Security \& Networking Tools}}\vspace{3mm}\\
+$\textbullet$ ActiveID 
+$\textbullet$ Cisco Packet Tracer
+$\textbullet$ Qualys
+$\textbullet$ ASOC
+}
+\networkingProtocol{
+{\large \textbf{Networking Protocol}}\vspace{3mm}\\
+$\textbullet$TFTP 
+$\textbullet$TELNET
+$\textbullet$DNS $\textbullet$DHCP
+$\textbullet$ACL\\
+$\textbullet$VLAN $\textbullet$VTP $\textbullet$NAT $\textbullet$FTP
+}
+
+% \Softskills{{
+%         {\large \textbf{Soft skills}} \\
+%         Effective oral \& written communication,\\
+%         Critical thinking, Problem solving,\\
+%         Collaboration, Decision Making
+% }}
+\references{{
+        {\large \textbf{References}}
+        \vspace{1mm}
+        \\
+        $\textbullet${\textbf{\href{https://www.linkedin.com/in/govind-prashad-04828844/}{Govind Prashad}}}\\
+        Security Advisor\\
+        National Refugee Council,Norway\\
+        E-mail: prasad.govind@gmail.com\\\\ 
+        $\textbullet${\textbf{\href{https://www.linkedin.com/in/ziaur-rahaman-8929719}{Shaikh Ziaur Rahaman}}}\\
+        CyberSecurity consultant\\
+        HCL Technologies Norway AS\\
+        E-mail: ziaever@gmail.com\\\\
+        $\textbullet${\textbf{\href{https://www.linkedin.com/in/nagisingh/}{Nagendra Singh}}}\\
+        General Manager\\
+        Wipro Ltd,India\\
+        E-mail: nagisingh@gmail.com\\ 
+}}
+
+%----
+%	 PERSONAL INFORMATION
+%----
+% If you don't need one or more of the below, just remove the content leaving the command, e.g. \cvnumberphone{}
+% \vspace{-6.5mm}
+\cvname{Aakriti} % Your name
+\cvjobtitle{ Meerut, UP, India } % Job
+% title/career
+\cvlinkedin{/in/aakriti-aakriti}
+\cvgithub{aakriti0fnu}
+\cvnumberphone{+91 885 182 9918} % Phone number
+\cvskype{Aakriti Chaudhary}
+\cvmail{aakriti.cse@gmail.com} % Email address
+
+\begin{document}
+        \makeprofile % Print the sidebar
+        %----
+        %	 PROFESSIONAL EXPERIENCE
+        %----
+        \vspace{-4.5mm}
+        \section*{{\color{pblue}\LARGE Professional Experience}}
+        \vspace{-5mm}
+        \begin{twenty}
+            \\
+        	\twentyitem
+            	{Nov 2019 -}
+        		{present}
+                {CyberSecurity Senior Analyst}
+                {\textbf{\href{https://www.hcltech.com/}{ HCL Technologies, India}}}
+                {}
+                {
+                {\begin{itemize}
+                 \item Engineered in Cybersecurity assurance, maintaining application security vulnerability detection and prevention
+                 \item  Managing Cryptographic services and certificate management for secure communication within the work environment
+                \end{itemize}}
+                }
+            \\
+            \twentyitem
+           		{Jan 2019 -}
+        		{Nov 2019}
+                {CyberSecurity Analyst}
+                {\textbf{\href{https://www.hcltech.com/geo-presence/norway}{ HCL Technologies, Norway}}}
+                {}
+                {
+                {\begin{itemize}
+                    \item Providing technical interface to rectify any operational glitch in Microsoft based three tier PKI infrastructure in one of the biggest financial institution of Norway, and to rectify any operational issues related to Safenet's HSM's deployed for net banking applications 
+                    \item Created and published Certificate authority autoenroll templates for Win10 domain users allowing VPN access to only designated workforce
+                    \item  Delivered service of Active ID smart card for bank users for secure and MFA login in the banking domains
+                    \item Managed certificate authority servers, CA keys in HSMs. Approve, issue, deny and revoke the certificates as per the organization standards.
+                    \item Integrated bank environment with Venafi tool for management of certificate Lifecycle
+                \end{itemize}}
+                }
+            \\
+            \twentyitem
+           		{Aug 2016 -}
+        		{Dec 2018}
+                {Graduate Engineering Trainee}
+                {\textbf{\href{https://www.hcltech.com/}{ HCL Technologies, India}}}
+                {}
+                {
+                {\begin{itemize}
+                    \item Resolving all operational issues pertaining to the service delivery and identification of root cause 
+                    \item Worked on L1 network tasks, escalated issues and health check monitoring of network and security devices
+                    \item Contribution to the SOPs, Runbooks, Technical Documents and other Project Deliverables. Mentoring Offshore team members. Regular Quarterly Presentations to entire team on new Technical topics
+                   % \item 
+            \end{itemize}}
+                }
+        \end{twenty}
+        \vspace{-4mm}
+        %----
+        %	 EDUCATION
+        %----
+        % \vspace{-4mm}
+        % \section*{{\color{pblue}\LARGE Education}}
+        % \vspace{-2mm}
+        % {\text {2012 - 2016}}\hspace{3em}{\text {}}\\
+        % \small{\text{\href{wwww.}{ \hspace{29mm} }}}\\
+        % \vspace{1mm}
+        
+        \vspace{-4mm}
+        \section*{{\color{pblue}\LARGE Education}}
+        \vspace{-2mm}
+        {\text{2012 - 2016}}\hspace{1em}{\textbf {B.E. in Computer Science \& Engineering | 78.92\% }}\hspace{2em} {\small{\textbf{\href{https://aktu.ac.in/}{AKTU, India}}}}
+        \vspace{-7mm}
+        %----
+        %	 MAJOR UNDER GRADUATION PROJECTS
+        %----
+        \section*{{\color{pblue}\LARGE Major Undergraduation projects}}
+        \vspace{-6mm}
+        \begin{twentyshort}
+            \\
+        	\twentyitemshort
+            	{2015-2016}
+                {\hspace{0.5em}\textbf{Secure and efficient network for an organisation}
+                    \begin{itemize}
+                        \item Designed network topology in a virtual simulator(Cisco Packet Tracer) for an organisation
+                        \item Provided a configurable system using command line interface to deliver safe, secure, and efficient network
+                        \item IPV4 subnetting used to distribute the IP range over multiple routers and Layer2, Layer3 switches.
+                        \item A cost-effective model to check the idealness of the design before procuring a real costly device.Simulation of packets from each location in the network helps in easy detection of any error in the network and checks the feasibility of devices in organisation. 
+                    \end{itemize}
+                }
+        \end{twentyshort}
+        
+        \vspace{-5mm}
+        %----
+        %	  INDUSTRIAL TRAINING EXPERIENCE
+        %----
+        % \section*{{\color{pblue}\LARGE  Internship Experience}}
+        % \vspace{-5mm}
+        % \begin{twentyshort}
+        % 	\twentyitemshort
+        %     	{2019}
+        %         {{
+        %           \begin{itemize}
+        %           \item SopraSteria India Pvt. Ltd.
+        %             MACE-Yellow jacket
+        %             Project MACE-Yellow jacket
+        %             Tool used Application lifecylce management
+        %             //
+        %             EFFICIENT AND SECURE NETWORK OF RESEARCH ORGANISATION”
+        %             Used Cisco Packet Tracer
+        %             \item TCS ION internship 2015-16
+        %           \end{itemize}
+        %           }}
+        % \end{twentyshort}
+        % \vspace{-5mm}
+        %
+        %----
+        %	  ACHIEVEMENT/ HONORS/ AWARDS
+        %----
+        \section*{{\color{pblue}\LARGE  Achievement/ Honors/ Awards}}
+        \vspace{-2mm}
+        \begin{twentyshort}
+        	\twentyitemshort
+            	{2017}
+                {\begin{itemize}
+                    Awarded comnet jewel(consecutively twice) for managing and coherently deriving team to achieve set targets as a Shift Lead  
+                  \end{itemize}
+                }
+        \end{twentyshort}
+        
+        \begin{twentyshort}
+        	\twentyitemshort
+            	{2020}
+        	    {{
+                  \begin{itemize}
+                   % \item Received many client appreciations
+                   % \item Active member of  internal audit team of security for compliant framework.
+                    Awarded as an Achiever (2019-2020) for exceptional performance three times in a row. Contributor in O-Infinity by achieving targeted KPI(Key Performance Indicator), leading knowledge transfers, SLA(Service level agreement) adherence, handling escalated issues and root cause analysis
+                  \end{itemize}}}
+        \end{twentyshort}
+% instead of security technologies, it will be PKI and cryptopgraphy
+% under PKI and cryptography - PKI: Public Key Infrastructure.
+%- Cryptography (Symmetric / Asymmetric Encryption).
+%- Digital Signatures.
+%- Certification Authority.
+%Comprehensive secure management of encryption/decryption and signing/verification keys on the "Hardware Security Modules".
+% to remove refernce and add skillset
+
+\end{document} 
